@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+body{
+    background-color: darkblue;
+    font-family: 'SpotifyLight';
+    text-align: justify;
+    color: rgb(249, 248, 247);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: SpotifyLight;
+    src: url(assets/fonts/CircularSpotifyText-Light.otf);
+}
+
+@font-face {
+    font-family: SpotifyBold;
+    src: url(assets/fonts/CircularSpotifyText-Bold.otf);
+}
+
+h1{
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+.subjects{
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+ul li{
+    margin-top: 5px;
+}
+
+p{
+    margin-top: 15px;
+    
+}
+
+.sub{
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+.links a{
+    text-decoration: underline;
+    color: skyblue;
+    font-size: 14px;
+}
+
+.links a:hover,a:active,a:focus{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+
