@@ -22,12 +22,12 @@ body{
 
 @font-face {
     font-family: SpotifyLight;
-    src: url(assets/fonts/CircularSpotifyText-Light.otf);
+    src: url(CircularSpotifyText-Light.otf);
 }
 
 @font-face {
     font-family: SpotifyBold;
-    src: url(assets/fonts/CircularSpotifyText-Bold.otf);
+    src: url(CircularSpotifyText-Bold.otf);
 }
 
 h1{
